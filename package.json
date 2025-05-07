@@ -1,0 +1,44 @@
+{
+	"name": "post-miner-engine",
+	"version": "1.0.0",
+	"description": "SDK for automating login and scraping workflows for social platforms (Facebook, Instagram, LinkedIn, Twitter) using Puppeteer.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"dev": "ts-node-dev --respawn test.ts",
+		"lint": "eslint 'src/**/*.{ts,tsx}'",
+		"lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
+		"format": "prettier --write 'src/**/*.{ts,tsx,json,md}'",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yourusername/post-miner"
+	},
+	"keywords": [
+		"puppeteer",
+		"scraper",
+		"automation",
+		"facebook",
+		"linkedin",
+		"instagram",
+		"twitter",
+		"sdk",
+		"nodejs"
+	],
+	"author": "Mohamad Aljeiawi",
+	"license": "NO LICENSE",
+	"dependencies": {
+		"dotenv": "^16.5.0",
+		"puppeteer": "^24.7.2",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2",
+		"ts-node-dev": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/hapi__shot": "^4.1.6",
+		"eslint": "^9.26.0",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.3"
+	}
+}

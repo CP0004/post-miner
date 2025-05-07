@@ -1,0 +1,7 @@
+node_modules
+dist
+.vscode
+.env
+.DS_Store
+/cookies
+package-lock.json
