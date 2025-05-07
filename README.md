@@ -153,7 +153,3 @@ npm run format
 - `src/index.ts` - Main export file
 - `src/platforms/` - Platform-specific controllers
 - `src/core/` - Shared functionality and utilities
-
-## License
-
-This project is not publicly licensed. See the LICENSE file for details. 
