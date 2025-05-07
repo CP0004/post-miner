@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/post-miner"><img src="https://img.shields.io/npm/v/post-miner?color=blue" /></a>
-  <a href="https://github.com/CP0004/post-miner"><img src="https://img.shields.io/github/stars/CP0004/post-miner?style=social" /></a>
-  <a href="https://github.com/CP0004/post-miner/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" /></a>
+  <a href="https://github.com/mohamad-aljeiawi/post-miner"><img src="https://img.shields.io/github/stars/mohamad-aljeiawi/post-miner?style=social" /></a>
+  <a href="https://github.com/mohamad-aljeiawi/post-miner/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" /></a>
 </p>
 
 ---
