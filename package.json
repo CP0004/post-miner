@@ -1,6 +1,6 @@
 {
 	"name": "post-miner",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "SDK for automating login and scraping workflows for social platforms (Facebook, Instagram, LinkedIn, Twitter, etc...) using Puppeteer.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
