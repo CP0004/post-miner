@@ -1,4 +1,9 @@
-import { FacebookController, InstagramController, LinkedinController, TwitterController } from './dist';
+import {
+	FacebookController,
+	InstagramController,
+	LinkedinController,
+	TwitterController
+} from 'post-miner-engine';
 
 import dotenv from 'dotenv';
 dotenv.config();

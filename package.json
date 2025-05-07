@@ -1,6 +1,6 @@
 {
-	"name": "post-miner-engine",
-	"version": "1.0.0",
+	"name": "post-miner",
+	"version": "1.0.1",
 	"description": "SDK for automating login and scraping workflows for social platforms (Facebook, Instagram, LinkedIn, Twitter, etc...) using Puppeteer.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -27,9 +27,10 @@
 		"nodejs"
 	],
 	"author": "Mohamad Aljeiawi",
-	"license": "NO LICENSE",
+	"license": "MIT",
 	"dependencies": {
 		"dotenv": "^16.5.0",
+		"post-miner": "^1.0.1",
 		"puppeteer": "^24.7.2",
 		"puppeteer-extra": "^3.3.6",
 		"puppeteer-extra-plugin-stealth": "^2.11.2",
