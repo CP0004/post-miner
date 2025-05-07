@@ -1,7 +1,7 @@
 {
 	"name": "post-miner-engine",
 	"version": "1.0.0",
-	"description": "SDK for automating login and scraping workflows for social platforms (Facebook, Instagram, LinkedIn, Twitter) using Puppeteer.",
+	"description": "SDK for automating login and scraping workflows for social platforms (Facebook, Instagram, LinkedIn, Twitter, etc...) using Puppeteer.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourusername/post-miner"
+		"url": "https://github.com/CP0004/post-miner"
 	},
 	"keywords": [
 		"puppeteer",
