@@ -3,7 +3,7 @@ import {
 	InstagramController,
 	LinkedinController,
 	TwitterController
-} from 'post-miner-engine';
+} from './dist';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -33,7 +33,8 @@ const environment = {
 		{
 			email: environment.facebook.email,
 			password: environment.facebook.password
-		}
+		},
+		true
 	);
 	await facebookController.init();
 
@@ -42,7 +43,8 @@ const environment = {
 		{
 			email: environment.instagram.email,
 			password: environment.instagram.password
-		}
+		},
+		true
 	);
 	await instagramController.init();
 
@@ -51,7 +53,8 @@ const environment = {
 		{
 			email: environment.linkedin.email,
 			password: environment.linkedin.password
-		}
+		},
+		true
 	);
 	await linkedinController.init();
 
@@ -60,7 +63,8 @@ const environment = {
 		{
 			email: environment.twitter.email,
 			password: environment.twitter.password
-		}
+		},
+		false
 	);
 	await twitterController.init();
 })();

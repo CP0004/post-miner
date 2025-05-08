@@ -1,4 +1,4 @@
-import type { Browser, BrowserContext, Page } from 'puppeteer';
+import type { Browser, BrowserContext, Page, Viewport } from 'puppeteer';
 import { BrowserController } from './browser-controller';
 import { createCookies, getCookies } from './cookie-manager';
 
@@ -10,9 +10,11 @@ abstract class BaseController {
 
 	constructor(
 		protected readonly pathCookies: string,
-		protected readonly baseUrl: string
+		protected readonly baseUrl: string,
+		protected headless: boolean = false,
+		protected defaultViewport: Viewport | null = null
 	) {
-		this.browserController = new BrowserController();
+		this.browserController = new BrowserController(this.headless, this.defaultViewport);
 	}
 
 	protected abstract login(): Promise<boolean>;

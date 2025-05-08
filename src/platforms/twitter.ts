@@ -1,11 +1,13 @@
 import { BaseController } from '../core/base-controller';
-
+import type { Viewport } from 'puppeteer';
 class TwitterController extends BaseController {
 	constructor(
 		protected readonly pathCookies: string,
-		protected readonly credentials: { email: string; password: string }
+		protected readonly credentials: { email: string; password: string },
+		protected headless: boolean = false,
+		protected defaultViewport: Viewport | null = null
 	) {
-		super(pathCookies, 'https://www.x.com');
+		super(pathCookies, 'https://www.x.com', headless, defaultViewport);
 	}
 
 	protected async needsLogin(): Promise<boolean> {
