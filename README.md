@@ -42,7 +42,7 @@ Here’s Post-Miner working on social media sites:
 
 ## 💡 Use Cases
 
-- Automatically extract product listings from Facebook groups and analyze them with AI
+- Automatically extract product listings from social media and analyze
 - Build smart bots that log in, collect data, and interact with users autonomously
 - Monitor competitor pages and public profiles across social platforms
 - Build custom search engines or classified ad trackers
