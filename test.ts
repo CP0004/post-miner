@@ -3,7 +3,7 @@ import {
 	InstagramController,
 	LinkedinController,
 	TwitterController
-} from './dist';
+} from './src';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -34,7 +34,7 @@ const environment = {
 			email: environment.facebook.email,
 			password: environment.facebook.password
 		},
-		true
+		false
 	);
 	await facebookController.init();
 
@@ -44,7 +44,7 @@ const environment = {
 			email: environment.instagram.email,
 			password: environment.instagram.password
 		},
-		true
+		false
 	);
 	await instagramController.init();
 
@@ -54,7 +54,7 @@ const environment = {
 			email: environment.linkedin.email,
 			password: environment.linkedin.password
 		},
-		true
+		false
 	);
 	await linkedinController.init();
 
